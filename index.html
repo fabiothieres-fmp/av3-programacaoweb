@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Guia prático para conseguir o primeiro emprego: currículo, entrevistas, comunicação formal e onde buscar oportunidades.">
+  <title>Guia do Primeiro Emprego | ADS</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&family=Fraunces:opsz,wght@9..144,600;9..144,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#conteudo">Ir para o conteúdo</a>
+
+  <header class="header" id="topo">
+    <div class="container header__inner">
+      <a class="logo" href="#topo">
+        <span class="logo__icon" aria-hidden="true">🎯</span>
+        <span class="logo__text">Primeiro Emprego</span>
+      </a>
+
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="menu-principal">
+        <span class="menu-toggle__bar"></span>
+        <span class="menu-toggle__bar"></span>
+        <span class="menu-toggle__bar"></span>
+        <span class="visually-hidden">Abrir menu</span>
+      </button>
+
+      <nav class="nav" id="menu-principal" aria-label="Navegação principal">
+        <ul class="nav__list">
+          <li><a class="nav__link" href="#buscar">Onde buscar</a></li>
+          <li><a class="nav__link" href="#curriculo">Currículo</a></li>
+          <li><a class="nav__link" href="#preparacao">Preparação</a></li>
+          <li><a class="nav__link" href="#comportamento">Comportamento</a></li>
+          <li><a class="nav__link" href="#comunicacao">Comunicação</a></li>
+          <li><a class="nav__link" href="#extras">Dicas extras</a></li>
+        </ul>
+      </nav>
+    </div>
+    <div class="reading-progress" aria-hidden="true">
+      <span class="reading-progress__bar" id="progresso-leitura"></span>
+    </div>
+  </header>
+
+  <main id="conteudo">
+    <section class="hero">
+      <div class="container hero__grid">
+        <div class="hero__content reveal">
+          <p class="hero__tag">Guia para estudantes de ADS</p>
+          <h1>Seu caminho até o <span>primeiro emprego</span></h1>
+          <p class="hero__lead">
+            Informações práticas sobre onde procurar vagas, como montar um currículo,
+            se preparar para entrevistas e se comunicar de forma profissional.
+          </p>
+          <div class="hero__actions">
+            <a class="btn btn--primary" href="#buscar">Começar o guia</a>
+            <a class="btn btn--ghost" href="#checklist">Ver checklist</a>
+          </div>
+        </div>
+        <div class="hero__illustration reveal">
+          <img src="assets/hero.jpg" alt="Equipe colaborando em ambiente de trabalho moderno" width="520" height="420" loading="eager">
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="buscar">
+      <div class="container section__grid">
+        <div class="section__visual reveal">
+          <img src="assets/buscar-vagas.jpg" alt="Pessoa analisando oportunidades de emprego no computador" width="480" height="360" loading="lazy">
+        </div>
+        <div class="section__content reveal">
+          <span class="section__number">01</span>
+          <h2>Onde procurar empregos</h2>
+          <p>
+            O primeiro passo é saber onde as oportunidades aparecem. Combine várias fontes
+            para aumentar suas chances — especialmente vagas de estágio e júnior em tecnologia.
+          </p>
+
+          <div class="cards">
+            <article class="card">
+              <h3>Plataformas online</h3>
+              <ul>
+                <li><strong>LinkedIn</strong> — perfil profissional e vagas direcionadas.</li>
+                <li><strong>Gupy, Catho, Indeed, InfoJobs</strong> — sites de recrutamento.</li>
+                <li><strong>Programathor, GeekHunter</strong> — foco em TI e desenvolvimento.</li>
+                <li><strong>Trampos.co</strong> — estágios e primeiras oportunidades.</li>
+              </ul>
+            </article>
+
+            <article class="card">
+              <h3>Rede de contatos</h3>
+              <ul>
+                <li>Professores, colegas de curso e ex-alunos da faculdade.</li>
+                <li>Eventos, meetups e hackathons da área de tecnologia.</li>
+                <li>Grupos de WhatsApp, Discord e comunidades de ADS.</li>
+                <li>Indicação: muitas empresas priorizam candidatos recomendados.</li>
+              </ul>
+            </article>
+
+            <article class="card">
+              <h3>Instituições e empresas</h3>
+              <ul>
+                <li>Centro de carreiras ou NAP da sua faculdade.</li>
+                <li>Programas de trainee, estágio e aprendizagem.</li>
+                <li>Sites de empresas na área "Trabalhe conosco".</li>
+                <li>Prefeituras e secretarias com programas de primeiro emprego.</li>
+              </ul>
+            </article>
+          </div>
+
+          <div class="tip-box">
+            <strong>Dica:</strong> crie uma planilha simples com vagas, prazos e status
+            (enviado, entrevista, recusado). Organização evita perder oportunidades.
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section--alt" id="curriculo">
+      <div class="container section__grid section__grid--reverse">
+        <div class="section__visual reveal">
+          <img src="assets/curriculo.jpg" alt="Currículo impresso sobre a mesa com caneta e documentos" width="480" height="360" loading="lazy">
+        </div>
+        <div class="section__content reveal">
+          <span class="section__number">02</span>
+          <h2>Como fazer currículo</h2>
+          <p>
+            Seu currículo é a primeira impressão. Para quem está começando, o foco deve ser
+            objetivo, clareza e projetos — mesmo que ainda não tenha experiência formal.
+          </p>
+
+          <div class="steps">
+            <div class="step">
+              <span class="step__num">1</span>
+              <div>
+                <h3>Estrutura básica</h3>
+                <p>Nome, contato, resumo objetivo, formação, habilidades, projetos e cursos relevantes.</p>
+              </div>
+            </div>
+            <div class="step">
+              <span class="step__num">2</span>
+              <div>
+                <h3>Resumo profissional</h3>
+                <p>2 ou 3 linhas sobre quem você é, o que estuda e o que busca (estágio, júnior, área).</p>
+              </div>
+            </div>
+            <div class="step">
+              <span class="step__num">3</span>
+              <div>
+                <h3>Projetos acadêmicos</h3>
+                <p>Inclua trabalhos de ADS: linguagens, ferramentas e o que o projeto resolveu.</p>
+              </div>
+            </div>
+            <div class="step">
+              <span class="step__num">4</span>
+              <div>
+                <h3>Formatação</h3>
+                <p>Máximo 1 página, fonte legível, PDF e nome do arquivo profissional (ex: Joao_Silva_Curriculo.pdf).</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="do-dont">
+            <div class="do-dont__col do-dont__col--do">
+              <h3>Faça</h3>
+              <ul>
+                <li>Adapte o currículo para cada vaga.</li>
+                <li>Use verbos de ação: desenvolvi, implementei, organizei.</li>
+                <li>Revise ortografia e gramática.</li>
+              </ul>
+            </div>
+            <div class="do-dont__col do-dont__col--dont">
+              <h3>Evite</h3>
+              <ul>
+                <li>Informações pessoais desnecessárias (estado civil, foto sem exigência).</li>
+                <li>Textos longos e genéricos.</li>
+                <li>Mentir sobre habilidades ou experiências.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="preparacao">
+      <div class="container section__grid">
+        <div class="section__visual reveal">
+          <img src="assets/preparacao.jpg" alt="Estudante fazendo anotações para se preparar para entrevista" width="480" height="360" loading="lazy">
+        </div>
+        <div class="section__content reveal">
+          <span class="section__number">03</span>
+          <h2>Como se preparar para uma entrevista</h2>
+          <p>
+            Entrevista não é improviso. Quanto mais você pesquisar e praticar, mais confiante
+            ficará para responder com clareza.
+          </p>
+
+          <div class="tabs" data-tabs>
+            <div class="tabs__nav" role="tablist" aria-label="Etapas de preparação">
+              <button class="tabs__btn is-active" role="tab" aria-selected="true" data-tab="pesquisa">Pesquisa</button>
+              <button class="tabs__btn" role="tab" aria-selected="false" data-tab="perguntas">Perguntas</button>
+              <button class="tabs__btn" role="tab" aria-selected="false" data-tab="pratica">Prática</button>
+            </div>
+
+            <div class="tabs__panel is-active" role="tabpanel" data-panel="pesquisa">
+              <ul>
+                <li>Leia sobre a empresa: produtos, missão, cultura e notícias recentes.</li>
+                <li>Entenda a vaga: requisitos, responsabilidades e stack tecnológica.</li>
+                <li>Separe 2 ou 3 motivos reais para querer trabalhar lá.</li>
+                <li>Confirme data, horário, endereço ou link da entrevista online.</li>
+              </ul>
+            </div>
+
+            <div class="tabs__panel" role="tabpanel" data-panel="perguntas" hidden>
+              <p>Perguntas comuns que você deve preparar:</p>
+              <ul>
+                <li>Fale sobre você e sua trajetória acadêmica.</li>
+                <li>Quais são seus pontos fortes e o que ainda está aprendendo?</li>
+                <li>Conte um desafio que enfrentou em um projeto.</li>
+                <li>Por que quer esta vaga e esta empresa?</li>
+                <li>Onde se vê em 2 ou 3 anos?</li>
+              </ul>
+              <p>Tenha também perguntas para fazer ao entrevistador sobre a equipe, projetos e expectativas.</p>
+            </div>
+
+            <div class="tabs__panel" role="tabpanel" data-panel="pratica" hidden>
+              <ul>
+                <li>Simule respostas em voz alta ou com um colega.</li>
+                <li>Prepare exemplos concretos de projetos (método STAR: Situação, Tarefa, Ação, Resultado).</li>
+                <li>Teste câmera, microfone e internet se for entrevista remota.</li>
+                <li>Separe documentos, portfólio ou GitHub com antecedência.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section--alt" id="comportamento">
+      <div class="container section__grid section__grid--reverse">
+        <div class="section__visual reveal">
+          <img src="assets/entrevista.jpg" alt="Profissionais em reunião de entrevista de emprego" width="480" height="360" loading="lazy">
+        </div>
+        <div class="section__content reveal">
+          <span class="section__number">04</span>
+          <h2>Como se portar em uma entrevista</h2>
+          <p>
+            Postura, pontualidade e respeito contam tanto quanto o conteúdo das respostas.
+            Mostre profissionalismo desde o primeiro contato.
+          </p>
+
+          <div class="behavior-grid">
+            <article class="behavior-card">
+              <span class="behavior-card__icon">⏰</span>
+              <h3>Pontualidade</h3>
+              <p>Chegue ou entre na call com 5 a 10 minutos de antecedência.</p>
+            </article>
+            <article class="behavior-card">
+              <span class="behavior-card__icon">👔</span>
+              <h3>Apresentação</h3>
+              <p>Vista-se de forma adequada ao ambiente — arrumado, limpo e confortável.</p>
+            </article>
+            <article class="behavior-card">
+              <span class="behavior-card__icon">🤝</span>
+              <h3>Postura</h3>
+              <p>Mantenha contato visual, ouça com atenção e evite interromper.</p>
+            </article>
+            <article class="behavior-card">
+              <span class="behavior-card__icon">📱</span>
+              <h3>Celular</h3>
+              <p>Silencie notificações e não consulte o telefone durante a conversa.</p>
+            </article>
+            <article class="behavior-card">
+              <span class="behavior-card__icon">💬</span>
+              <h3>Honestidade</h3>
+              <p>Se não souber algo, diga com sinceridade e mostre vontade de aprender.</p>
+            </article>
+            <article class="behavior-card">
+              <span class="behavior-card__icon">✉️</span>
+              <h3>Agradecimento</h3>
+              <p>Envie um e-mail ou mensagem breve agradecendo após a entrevista.</p>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="comunicacao">
+      <div class="container section__grid">
+        <div class="section__visual reveal">
+          <img src="assets/comunicacao.jpg" alt="Profissionais em reunião discutindo comunicação corporativa" width="480" height="360" loading="lazy">
+        </div>
+        <div class="section__content reveal">
+          <span class="section__number">05</span>
+          <h2>Comunicação formal</h2>
+          <p>
+            E-mails, mensagens e currículos exigem linguagem clara e respeitosa.
+            Isso transmite maturidade e facilita o contato com recrutadores.
+          </p>
+
+          <div class="compare-box">
+            <div class="compare-box__item compare-box__item--bad">
+              <h3>Informal demais</h3>
+              <p>"Oi, blz? Vi a vaga ae e quero mto trampar c vcs!!!"</p>
+            </div>
+            <div class="compare-box__item compare-box__item--good">
+              <h3>Formal adequado</h3>
+              <p>"Prezado(a), me chamo João Silva, estudante de ADS. Tenho interesse na vaga de estágio em desenvolvimento e gostaria de saber mais sobre o processo seletivo. Atenciosamente, João Silva."</p>
+            </div>
+          </div>
+
+          <h3 class="subheading">Regras práticas</h3>
+          <ul class="checklist-list">
+            <li>Use saudação e despedida (Prezado(a), Atenciosamente).</li>
+            <li>Evite gírias, abreviações e excesso de emojis.</li>
+            <li>Revise acentuação e concordância antes de enviar.</li>
+            <li>Seja objetivo: quem você é, o motivo do contato e o que deseja.</li>
+            <li>Responda mensagens de recrutadores em tempo razoável.</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section--alt" id="extras">
+      <div class="container">
+        <div class="section__intro reveal">
+          <span class="section__number">06</span>
+          <h2>Dicas extras para o primeiro emprego</h2>
+          <p>Informações complementares que fazem diferença na transição da faculdade para o mercado.</p>
+        </div>
+
+        <div class="extras-grid reveal">
+          <article class="extra-card">
+            <img src="assets/portfolio.jpg" alt="Desenvolvedor trabalhando em projeto de programação no notebook" width="320" height="200" loading="lazy">
+            <h3>Portfólio e GitHub</h3>
+            <p>Mostre projetos reais: código organizado, README explicando o projeto e tecnologias usadas.</p>
+          </article>
+          <article class="extra-card">
+            <img src="assets/networking.jpg" alt="Grupo de profissionais conversando em evento de networking" width="320" height="200" loading="lazy">
+            <h3>Networking</h3>
+            <p>Participe de eventos, conecte-se no LinkedIn e mantenha contato com colegas da área.</p>
+          </article>
+          <article class="extra-card">
+            <img src="assets/primeiro-dia.jpg" alt="Escritório moderno representando o primeiro dia de trabalho" width="320" height="200" loading="lazy">
+            <h3>Primeiro dia</h3>
+            <p>Chegue cedo, observe a rotina, pergunte quando tiver dúvidas e anote orientações importantes.</p>
+          </article>
+          <article class="extra-card">
+            <img src="assets/direitos.jpg" alt="Assinatura de contrato de trabalho e documentos formais" width="320" height="200" loading="lazy">
+            <h3>Direitos básicos</h3>
+            <p>Conheça carteira assinada, contrato, jornada, férias e canal de RH para dúvidas trabalhistas.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section checklist-section" id="checklist">
+      <div class="container">
+        <div class="checklist-wrap reveal">
+          <div class="checklist-wrap__header">
+            <img src="assets/checklist.jpg" alt="Post-its coloridos organizando tarefas em um checklist" width="280" height="200" loading="lazy">
+            <div>
+              <h2>Checklist interativo</h2>
+              <p>Marque o que você já fez. Seu progresso fica salvo no navegador.</p>
+            </div>
+          </div>
+
+          <ul class="checklist" id="checklist-items">
+            <li><label><input type="checkbox" data-check="1"> Atualizei meu currículo em PDF</label></li>
+            <li><label><input type="checkbox" data-check="2"> Criei ou atualizei meu LinkedIn</label></li>
+            <li><label><input type="checkbox" data-check="3"> Organizei projetos no GitHub ou portfólio</label></li>
+            <li><label><input type="checkbox" data-check="4"> Pesquisei empresas onde quero trabalhar</label></li>
+            <li><label><input type="checkbox" data-check="5"> Pratiquei respostas para entrevista</label></li>
+            <li><label><input type="checkbox" data-check="6"> Separei roupa e documentos para entrevista</label></li>
+            <li><label><input type="checkbox" data-check="7"> Revisei regras de comunicação formal</label></li>
+          </ul>
+
+          <div class="checklist-progress">
+            <div class="checklist-progress__bar">
+              <span id="checklist-bar"></span>
+            </div>
+            <p id="checklist-status">0 de 7 concluídos</p>
+          </div>
+
+          <button class="btn btn--ghost" type="button" id="reset-checklist">Limpar checklist</button>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <button class="back-to-top" type="button" id="voltar-topo" aria-label="Voltar ao topo">
+    ↑
+  </button>
+
+  <footer class="footer">
+    <div class="container footer__inner">
+      <p><strong>Guia do Primeiro Emprego</strong> — Trabalho acadêmico | Fabio Thieres e Nicolas Paglioni</p>
+      <p class="footer__note">Conteúdo informativo. Consulte profissionais e fontes oficiais para orientação específica.</p>
+      <p class="footer__credits">Imagens por <a href="https://unsplash.com" target="_blank" rel="noopener noreferrer">Unsplash</a> (licença gratuita).</p>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
